@@ -5,3 +5,6 @@ How to run:
   <li>Run npm install</li>
   <li>Run npm run dev</li>
 </ul>
+<br />
+I generated a live link using vercel: <br />
+https://react-portfolio-website-6e9u.vercel.app/
