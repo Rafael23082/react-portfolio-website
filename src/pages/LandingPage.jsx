@@ -11,9 +11,9 @@ function LandingPage() {
           <Navbar current={"home"} />
           <div className="bg-black mt-[3em]">
             <p className="absolute text-white font-medium text-[3rem] sm:text-[5rem] md:text-[6rem] lg:text-[10rem] text-center w-full top-[25%] leading-[0.9em]" style={{fontFamily: "helvetica"}}>RAFAEL<br />ANDERSON</p>
-            <div className="border border-white w-fit px-[1em] rounded-[20px] flex items-center absolute top-[20%] left-1/2 -translate-x-1/2">
+            <div className="border border-white w-fit px-[1em] rounded-[20px] flex items-center absolute top-[20%] left-1/2 -translate-x-1/2 whitespace-nowrap">
               <div className="w-2 h-2 rounded-full bg-[#84fc1c]"></div>
-              <p className="text-white ml-[0.5em] text-[0.7rem] lg:text-[1.1rem] italic">AVAILABLE FOR WORK</p>
+              <p className="text-white ml-[0.5em] text-[0.9rem] lg:text-[1.1rem] italic">AVAILABLE FOR WORK</p>
             </div>
             <img src="./profile.png" className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[270px] md:w-[350px] lg:w-[450px]" alt="Rafael Anderson" />
             <p className="text-white hidden md:block absolute md:top-[65%] lg:top-[70%] left-[5%] md:w-[25%] lg:w-[30%] lg:text-[1rem]" style={{fontFamily: "figtree"}}>"Crafting immersive experiences at the intersection of design and technology."</p>
@@ -22,8 +22,8 @@ function LandingPage() {
       </div>
 
       <div className="bg-[#f8f8f8]">
-        <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[2em]">
-          <div className="border w-fit px-[1em] rounded-[20px] flex items-center">
+        <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[1em] md:px-[2em]">
+          <div className="border w-fit px-[1em] rounded-[20px] flex items-center whitespace-nowrap">
             <div className="w-2 h-2 rounded-full bg-[#84fc1c]"></div>
             <p className="ml-[0.5em] text-[0.7rem] lg:text-[1.1rem]">WHY CHOOSE ME</p>
           </div>
@@ -49,8 +49,8 @@ function LandingPage() {
       </div>
 
       <div className="bg-[#141414]">
-        <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[2em]">
-          <div className="border border-white w-fit px-[1em] rounded-[20px] flex items-center">
+        <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[1em] md:px-[2em]">
+          <div className="border border-white w-fit px-[1em] rounded-[20px] flex items-center whitespace-nowrap">
             <div className="w-2 h-2 rounded-full bg-[#84fc1c]"></div>
             <p className="ml-[0.5em] text-[0.7rem] lg:text-[1.1rem] text-white">SELECTED WORK 2023 - 2024</p>
           </div>
@@ -70,9 +70,9 @@ function LandingPage() {
       </div>
 
       <div className="bg-[#f8f8f8]">
-        <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[2em] flex flex-col lg:flex-row">
+        <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[1em] md:px-[2em] flex flex-col lg:flex-row">
           <div className="w-[100%] lg:w-[50%]">
-            <div className="border w-fit px-[1em] rounded-[20px] flex items-center">
+            <div className="border w-fit px-[1em] rounded-[20px] flex items-center whitespace-nowrap">
               <div className="w-2 h-2 rounded-full bg-[#84fc1c]"></div>
               <p className="ml-[0.5em] text-[0.7rem] lg:text-[1.1rem]">MY PROCESS</p>
             </div>

@@ -55,7 +55,7 @@ function ProjectsPage(){
         <>
         <Navbar current={"projects"} />
         <div className="bg-[#141414]">
-            <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[2em]">
+            <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[1em] md:px-[2em]">
                 <p className="text-white font-medium text-[3rem] sm:text-[5rem] md:text-[6rem] lg:text-[10rem]">PROJECTS</p>
                 <div className="flex flex-col md:flex-row mt-[5em] lg:mt-[0.8em]">
                     <div className="flex flex-col">

@@ -22,7 +22,7 @@ function Footer(){
             </div>
           </div>
         </div>
-        <div className="flex text-white absolute bottom-[25px] lg:bottom-[50px] gap-[10px] sm:gap-[20px] left-1/2 -translate-x-1/2 sm:flex-row flex-col text-[0.8rem] sm:text-[1rem] justify-center items-center">
+        <div className="flex text-white absolute bottom-[25px] lg:bottom-[50px] gap-[10px] sm:gap-[20px] left-1/2 -translate-x-1/2 sm:flex-row flex-col text-[0.8rem] lg:text-[1rem] justify-center items-center">
           <p className="hover:text-[#a9e877] duration-[0.3s] ease-in-out cursor-pointer" onClick={() => {navigate("/"); window.scrollTo(0, 0);}}>Home</p>
           <p className="hover:text-[#a9e877] duration-[0.3s] ease-in-out cursor-pointer" onClick={() => {navigate("/about"); window.scrollTo(0, 0);}}>About</p>
           <p className="hover:text-[#a9e877] duration-[0.3s] ease-in-out cursor-pointer" onClick={() => {navigate("/projects"); window.scrollTo(0, 0);}}>Projects</p>

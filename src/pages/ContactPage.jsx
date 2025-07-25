@@ -10,7 +10,7 @@ function ContactPage(){
         <>
             <Navbar current={"contact"} />
             <div className="bg-[#141414]">
-                <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[2em]">
+                <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[1em] md:px-[2em]">
                     <p className="text-white font-medium text-[3rem] sm:text-[5rem] md:text-[6rem] lg:text-[10rem]">CONTACT</p>
                     <div className="flex justify-between text-white mt-[5em] lg:mt-[1em] flex-col lg:flex-row">
                         <div className="w-[100%] lg:w-[49%] bg-[#1c1c1c] flex flex-col justify-center items-center rounded-[20px] py-[3em]">

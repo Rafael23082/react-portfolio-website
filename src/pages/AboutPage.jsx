@@ -7,7 +7,7 @@ function AboutPage(){
         <>
             <Navbar current={"about"} />
             <div className="bg-[#141414]">
-                <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[2em]">
+                <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[1em] md:px-[2em]">
                     <p className="text-white font-medium text-[3rem] sm:text-[5rem] md:text-[6rem] lg:text-[10rem]">ABOUT</p>
                     <div className="flex items-center flex-col lg:flex-row mt-[5em] lg:mt-[1em]">
                         <div className="w-[min(100%,400px)] min-w-[200px] lg:w-[50%]">
@@ -28,11 +28,11 @@ function AboutPage(){
             <Gallery text={"white"} bg={"#141414"} title1={"I Enjoy Reading"} title2={"as Well!"} image1={"solo.jpg"} image2={"tbate.jpg"} image3={"windbreaker.png"} image4={"cote.jpg"} />
 
             <div className="bg-[#f8f8f8]">
-                <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[2em] flex items-center flex-col lg:flex-row">
+                <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[1em] md:px-[2em] flex items-center flex-col lg:flex-row">
                     <div className="w-[100%] lg:w-[50%]">
                         <div className="border border-black w-fit px-[1em] rounded-[20px] flex items-center">
                             <div className="w-2 h-2 rounded-full bg-[#84fc1c]"></div>
-                            <p className="ml-[0.5em] text-[0.7rem] lg:text-[1.1rem] text-black">MINDSET</p>
+                            <p className="ml-[0.5em] text-[0.7rem] lg:text-[1.1rem] text-black whitespace-nowrap">MINDSET</p>
                         </div>
                         <p className="font-medium text-[3rem] lg:text-[4.5rem] leading-[1em] mt-[0.4em] text-black mt-[0.3em] w-[60%]" style={{fontFamily: "figtree"}}>MY PHILOSOPHY</p>
                     </div>
