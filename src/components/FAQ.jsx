@@ -39,7 +39,7 @@ function FAQ() {
     const [activeQuestion, setActiveQuestion] = useState(null);
     return(
         <div className="bg-[#f8f8f8]">
-            <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[2em] flex">
+            <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[1em] md:px-[2em] flex">
                 <div className="flex w-[100%] flex-col lg:flex-row">
                     <div className="w-[100%] lg:w-[40%]">
                         <div className="border w-fit px-[1em] rounded-[20px] flex items-center">
@@ -52,9 +52,9 @@ function FAQ() {
                         <div className='w-[100%]'>
                             {questions.map((q) => (
                                 <div key={q.id} className='w-[100%]'>
-                                    <div className='w-[100%] flex cursor-pointer py-[0.8em] text-[1.2rem] lg:text-[1.3rem]' onClick={() => {setActiveQuestion(activeQuestion == q.id ? null: q.id)}}>
+                                    <div className='w-[100%] flex cursor-pointer py-[0.8em] text-[1.2rem] lg:text-[1.3rem] items-center' onClick={() => {setActiveQuestion(activeQuestion == q.id ? null: q.id)}}>
                                         <p className='grow'>{q.question}</p>
-                                        {activeQuestion == q.id ? <FaCircleMinus className='flex-shrink-0' />: <FaCirclePlus className='flex-shrink-0' />}
+                                        {activeQuestion == q.id ? <FaCircleMinus className='flex-shrink-0 ml-[1em]' />: <FaCirclePlus className='flex-shrink-0 ml-[1em]' />}
                                     </div>
                                     <AnimatePresence>
                                         {activeQuestion == q.id && (

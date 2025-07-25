@@ -5,7 +5,7 @@ function Footer(){
     const navigate = useNavigate();
     return(
       <div className="bg-[#1c1c1c] relative">
-        <div className="max-w-[1300px] mx-auto py-[5em] pb-[12em] sm:py-[5em] lg:py-[8em] px-[2em]">
+        <div className="max-w-[1300px] mx-auto py-[5em] pb-[12em] sm:py-[5em] lg:py-[8em] px-[1.5em] md:px-[2em]">
           <div className="w-[100%] bg-[#141414] text-white mx-auto flex flex-col items-center py-[2em] md:py-[5em] rounded-[20px]">
             <div className="border w-fit px-[1em] rounded-[20px] flex items-center">
               <div className="w-2 h-2 rounded-full bg-[#84fc1c]"></div>

@@ -1,7 +1,7 @@
 function Gallery({text, bg, title1, title2, image1, image2, image3, image4}){
     return(
         <div className={`bg-[${bg}]`}>
-            <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[2em]">
+            <div className="max-w-[1300px] mx-auto py-[5em] lg:py-[8em] px-[1em] md:px-[2em]">
                 <div className={`border w-fit px-[1em] rounded-[20px] flex items-center mx-auto border-${text}`}>
                     <div className="w-2 h-2 rounded-full bg-[#84fc1c]"></div>
                     <p className={`ml-[0.5em] text-[0.7rem] lg:text-[1.1rem] text-${text}`}>MY WORLD</p>
