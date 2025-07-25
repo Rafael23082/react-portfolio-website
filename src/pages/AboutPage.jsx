@@ -24,7 +24,7 @@ function AboutPage(){
                 </div>
             </div>
 
-            <Gallery text={"#000000"} bg={"#f8f8f8"} title1={"When I'm not Studying"} title2={"I Watch Anime"} image1={"oregairu.png"} image2={"HxH.jpg"} image3={"stone.jpg"} image4={"haikyu.jpg"} />
+            <Gallery text={"black"} bg={"#f8f8f8"} title1={"When I'm not Studying"} title2={"I Watch Anime"} image1={"oregairu.png"} image2={"HxH.jpg"} image3={"stone.jpg"} image4={"haikyu.jpg"} />
             <Gallery text={"white"} bg={"#141414"} title1={"I Enjoy Reading"} title2={"as Well!"} image1={"solo.jpg"} image2={"tbate.jpg"} image3={"windbreaker.png"} image4={"cote.jpg"} />
 
             <div className="bg-[#f8f8f8]">

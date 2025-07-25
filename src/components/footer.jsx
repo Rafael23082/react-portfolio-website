@@ -1,5 +1,6 @@
 import { FiCornerDownRight } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
+import DecorativePill from "./DecorativePill.jsx";
 
 function Footer(){
     const navigate = useNavigate();
@@ -7,10 +8,7 @@ function Footer(){
       <div className="bg-[#1c1c1c] relative">
         <div className="max-w-[1300px] mx-auto py-[5em] pb-[12em] sm:py-[5em] lg:py-[8em] px-[1.5em] md:px-[2em]">
           <div className="w-[100%] bg-[#141414] text-white mx-auto flex flex-col items-center py-[2em] md:py-[5em] rounded-[20px]">
-            <div className="border w-fit px-[1em] rounded-[20px] flex items-center">
-              <div className="w-2 h-2 rounded-full bg-[#84fc1c]"></div>
-              <p className="ml-[0.5em] text-[0.7rem] lg:text-[1.1rem]">HAVE A PROJECT IN MIND?</p>
-            </div>
+            <DecorativePill text={"HAVE A PROJECT IN MIND?"} white={false} italic={false} absolute={false} centered={true} />
             <p className="text-[3rem] lg:text-[4.5rem] leading-[1em] text-center px-[0.3em]">Let's Turn your Ideas<br />into Reality</p>
             <div className="flex flex-col mt-[2em]">
               <div className="flex items-center">
