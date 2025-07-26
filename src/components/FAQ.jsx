@@ -46,7 +46,7 @@ function FAQ() {
                             <div className="w-2 h-2 rounded-full bg-[#84fc1c]"></div>
                             <p className="ml-[0.5em] text-[0.7rem] lg:text-[1.1rem]">FAQ</p>
                         </div>
-                        <p className="font-medium text-[3rem] lg:text-[4.5rem] leading-[1em] mt-[0.4em] text-black mt-[0.3em] pr-[1em]" style={{fontFamily: "figtree"}}>Questions & Answers</p>
+                        <p className="font-medium text-[2.7rem] lg:text-[4.5rem] leading-[1em] mt-[0.4em] text-black mt-[0.3em] pr-[1em]" style={{fontFamily: "figtree"}}>Questions & Answers</p>
                     </div>
                     <div className="w-[100%] lg:w-[60%] flex flex-col pt-[1em] lg:pt-0">
                         <div className='w-[100%]'>

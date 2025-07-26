@@ -9,7 +9,7 @@ function Footer(){
         <div className="max-w-[1300px] mx-auto py-[5em] pb-[12em] sm:py-[5em] lg:py-[8em] px-[1.5em] md:px-[2em]">
           <div className="w-[100%] bg-[#141414] text-white mx-auto flex flex-col items-center py-[2em] md:py-[5em] rounded-[20px]">
             <DecorativePill text={"HAVE A PROJECT IN MIND?"} white={false} italic={false} absolute={false} centered={true} />
-            <p className="text-[3rem] lg:text-[4.5rem] leading-[1em] text-center px-[0.3em]">Let's Turn your Ideas<br />into Reality</p>
+            <p className="text-[2.7rem] lg:text-[4.5rem] leading-[1em] text-center px-[0.3em]">Let's Turn your Ideas<br />into Reality</p>
             <div className="flex flex-col mt-[2em]">
               <div className="flex items-center">
                 <FiCornerDownRight strokeWidth={1} size={10} className="block md:hidden" />

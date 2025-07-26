@@ -16,7 +16,7 @@ function AboutPage(){
                             </div>
                         </div>
                         <div className="w-[100%] lg:w-[50%] px-0 md:px-[4em] lg:px-0">
-                            <p className="font-medium text-[3rem] lg:text-[4.5rem] leading-[1em] mt-[0.4em] text-white mt-[1em] lg:mt-0" style={{fontFamily: "figtree"}}>Welcome to my Creative World</p>
+                            <p className="font-medium text-[2.7rem] lg:text-[4.5rem] leading-[1em] mt-[0.4em] text-white mt-[1em] lg:mt-0" style={{fontFamily: "figtree"}}>Welcome to my Creative World</p>
                             <p className="text-white pt-[2em]">My journey into the world of technology began during my university years, where I discovered a deep passion for problem-solving and building impactful digital experiences. Fascinated by how software can shape the way we live and interact, I chose to pursue a degree in Computer Science with the goal of becoming a software engineer.</p>
                             <p className="text-white pt-[1em]">Today, I'm driven by a desire to create tools and applications that not only function seamlessly but also improve people's lives through thoughtful design and efficient engineering.</p>
                         </div>
@@ -34,7 +34,7 @@ function AboutPage(){
                             <div className="w-2 h-2 rounded-full bg-[#84fc1c]"></div>
                             <p className="ml-[0.5em] text-[0.7rem] lg:text-[1.1rem] text-black whitespace-nowrap">MINDSET</p>
                         </div>
-                        <p className="font-medium text-[3rem] lg:text-[4.5rem] leading-[1em] mt-[0.4em] text-black mt-[0.3em] w-[60%]" style={{fontFamily: "figtree"}}>MY PHILOSOPHY</p>
+                        <p className="font-medium text-[2.7rem] lg:text-[4.5rem] leading-[1em] mt-[0.4em] text-black mt-[0.3em] w-[60%]" style={{fontFamily: "figtree"}}>MY PHILOSOPHY</p>
                     </div>
                     <div className="w-[100%] lg:w-[50%] text-black mt-[2em] lg:mt-0">I believe great software is not just built with code — it's crafted with curiosity, clarity, and care.<br />As a developer-in-training, I see every bug as a learning opportunity and every project as a chance to grow. I value clean, maintainable code and strive to write software that balances functionality with user experience.<br />To me, technology should be accessible, human-centered, and purposeful. Whether I'm building a frontend interface or exploring backend logic, I aim to create tools that make a meaningful difference in people's lives.<br />I'm driven by a simple mindset:<br />Keep learning, stay humble, and build what matters.</div>
                 </div>
