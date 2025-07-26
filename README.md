@@ -1,5 +1,12 @@
 # Portfolio Website
 This is a simple portfolio website built using React and Tailwind CSS. <br />
+
+## 🔗 Live Demo <br />
+https://react-portfolio-website-6e9u.vercel.app/
+
+## Pages
+- **Landing Page** - Introduction and welcome
+
 The website consists of:
 <ul>
   <li>Landing page</li>
