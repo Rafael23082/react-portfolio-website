@@ -1,25 +1,18 @@
 # Portfolio Website
-This is a simple portfolio website built using React and Tailwind CSS. <br />
+This is a simple and modern **portfolio website** built with **React** and **Tailwind CSS**.  
+It features multiple pages to showcase my work and provide information about myself. <br />
 
 ## 🔗 Live Demo <br />
 https://react-portfolio-website-6e9u.vercel.app/
 
 ## Pages
 - **Landing Page** - Introduction and welcome
+- **About Page** - Personal bio and background
+- **Projects Page** - Showcase of my projects
+- **Contacts Page** - Contact form and social links
 
-The website consists of:
-<ul>
-  <li>Landing page</li>
-  <li>About page</li>
-  <li>Projects page</li>
-  <li>Contact page</li>
-</ul>
-How to run:
-<ul>
-  <li>Clone the repository</li>
-  <li>Run npm install</li>
-  <li>Run npm run dev</li>
-</ul>
-<br />
-I generated a live link using vercel: <br />
-https://react-portfolio-website-6e9u.vercel.app/
+### Installation
+- git clone https://github.com/Rafael23082/React-Portfolio-Website.git
+- cd React-Portfolio-Website
+- npm install
+- npm run dev
