@@ -11,6 +11,11 @@ https://react-portfolio-website-6e9u.vercel.app/
 - **Projects Page** - Showcase of my projects
 - **Contacts Page** - Contact form and social links
 
+## ⚙️ Getting Started
+
+### 📦 Prerequisites
+- Node.js
+
 ### 🚀 Installation
 - git clone https://github.com/Rafael23082/React-Portfolio-Website.git
 - cd React-Portfolio-Website
