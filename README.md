@@ -3,7 +3,7 @@ This is a simple and modern **portfolio website** built with **React** and **Tai
 It features multiple pages to showcase my work and provide information about myself. <br />
 
 ## 🔗 Live Demo <br />
-https://react-portfolio-website-6e9u.vercel.app/
+[Live Demo](https://react-portfolio-website-6e9u.vercel.app/)
 
 ## 📁 Pages
 - **Landing Page** - Introduction and welcome
