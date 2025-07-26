@@ -1,4 +1,4 @@
-# 🌐 Portfolio Website
+# 🌐 React Portfolio Website
 This is a simple and modern **portfolio website** built with **React** and **Tailwind CSS**.  
 It features multiple pages to showcase my work and provide information about myself. <br />
 
