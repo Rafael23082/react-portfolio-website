@@ -65,10 +65,10 @@ function ContactPage(){
                     <div className="flex flex-col lg:flex-row">
                         <p className="font-medium text-[2.7rem] lg:text-[4.5rem] leading-[1em] text-white mt-[0.3em] pr-[1em] w-[100%] lg:w-[50%]" style={{fontFamily: "figtree"}}>I'd love to hear from you!</p>
                         {success && (
-                            <div className="w-[100%] lg:w-[50%] bg-[#e8fcc4] p-[1em] h-fit">Thanks for contacting us! We will be in touch with you shortly.</div>
+                            <div className="w-[100%] lg:w-[50%] bg-[#e8fcc4] p-[1em] h-fit mt-[5em] lg:mt-0">Thanks for contacting us! We will be in touch with you shortly.</div>
                         )}
                         {!success && (
-                            <div className="w-[100%] lg:w-[50%] text-white mt-[5em] lg:mt-0">
+                            <div className="w-[100%] lg:w-[50%] text-white mt-[4em] lg:mt-0">
                                 <p className="font-bold">
                                     <span className="text-white">Name </span>
                                     <span className="text-[#d43828]">*</span>
