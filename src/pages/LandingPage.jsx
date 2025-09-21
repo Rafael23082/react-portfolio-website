@@ -9,7 +9,7 @@ function LandingPage() {
     <>
       <main>
         <section className="bg-[#141414]">
-          <div className="bg-[#141414] max-w-[1300px] mx-auto overflow-hidden relative h-[max(650px,100vh)] md:h-[max(880px,80vh)]">
+          <div className="bg-[#141414] max-w-[1300px] mx-auto overflow-hidden relative h-[max(630px,100vh)] md:h-[max(860px,80vh)]">
             <Navbar current={"home"} />
             <div className="bg-black">
               <p className="absolute text-white font-medium text-[2.7rem] sm:text-[5rem] md:text-[6rem] lg:text-[10rem] text-center w-full top-[200px] leading-[0.9em]" style={{fontFamily: "helvetica"}}>RAFAEL<br />ANDERSON</p>
