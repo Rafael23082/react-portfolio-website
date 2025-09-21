@@ -7,18 +7,15 @@ import DecorativePill from "../components/DecorativePill.jsx";
 function LandingPage() {
   return (
     <>
-      <header>
-        <Navbar current={"home"} />
-      </header>
-
       <main>
         <section className="bg-[#141414]">
-          <div className="bg-[#141414] max-w-[1300px] mx-auto overflow-hidden relative h-[max(620px,100vh)] md:h-[max(850px,80vh)]">
-            <div className="bg-black mt-[3em]">
-              <p className="absolute text-white font-medium text-[2.7rem] sm:text-[5rem] md:text-[6rem] lg:text-[10rem] text-center w-full top-[150px] leading-[0.9em]" style={{fontFamily: "helvetica"}}>RAFAEL<br />ANDERSON</p>
+          <div className="bg-[#141414] max-w-[1300px] mx-auto overflow-hidden relative h-[max(650px,100vh)] md:h-[max(880px,80vh)]">
+            <Navbar current={"home"} />
+            <div className="bg-black">
+              <p className="absolute text-white font-medium text-[2.7rem] sm:text-[5rem] md:text-[6rem] lg:text-[10rem] text-center w-full top-[200px] leading-[0.9em]" style={{fontFamily: "helvetica"}}>RAFAEL<br />ANDERSON</p>
               <DecorativePill text={"AVAILABLE FOR WORK"} white={false} italic={true} absolute={true} centered={false} />
               <img src="./profile.png" className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[270px] md:w-[350px] lg:w-[450px]" alt="Rafael Anderson" />
-              <p className="text-white hidden md:block absolute md:top-[500px] left-[5%] md:w-[25%] lg:w-[30%] lg:text-[1rem]" style={{fontFamily: "figtree"}}>"Crafting immersive experiences at the intersection of design and technology."</p>
+              <p className="text-white hidden md:block absolute md:top-[550px] left-[5%] md:w-[25%] lg:w-[30%] lg:text-[1rem]" style={{fontFamily: "figtree"}}>"Crafting immersive experiences at the intersection of design and technology."</p>
             </div>
           </div>
         </section>

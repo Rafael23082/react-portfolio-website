@@ -18,7 +18,7 @@ function Navbar({current}) {
   })
 
   return (
-    <div className="bg-[#141414] max-w-[1300px] mx-auto">
+    <div>
       <div className="w-full flex bg-[#141414] navbar items-center py-[1em] relative">
         <p className="text-[1.2rem] lg:text-[1.4rem] text-white font-medium grow pl-[1em] md:pl-[2em]" style={{fontFamily: "helvetica"}}>RAFAEL ANDERSON</p>
 
